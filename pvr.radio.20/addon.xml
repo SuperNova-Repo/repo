@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="pvr.radio.20"
+  version="20.2022.11.24"
+  name="PVR Radio Client"
+  provider-name="Kostya Lolinger">
+  <requires>
+    <import addon="kodi.binary.global.main" minversion="1.3.0" version="2.0.2"/>
+    <import addon="kodi.binary.global.general" version="1.0.5"/>
+    <import addon="kodi.binary.global.filesystem" minversion="1.1.6" version="1.1.7"/>
+    <import addon="kodi.binary.global.tools" version="1.0.4"/>
+    <import addon="kodi.binary.instance.pvr" minversion="7.1.0" version="8.2.0"/>
+    <import addon="inputstream.ffmpegdirect" version="1.19.0"/>
+    <import addon="inputstream.adaptive" version="2.6.6"/>
+    <import addon="inputstream.rtmp" version="3.4.0"/>
+  </requires>
+  <extension
+    point="kodi.pvrclient"
+    library_windows="pvr.radio.20.win64.dll" 
+    library_android="libpvr.radio.20.arm7.so"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <license>GPL-2.0-or-later</license>
+		<assets>
+            <icon>resources\icon.png</icon>
+            <fanart>resources\fanart.jpg</fanart>
+        </assets>
+    <news>
+    </news>
+    <summary lang="de_DE">Kodi PVR-Addon für Radio-Unterstützung.</summary>
+    <summary lang="en_GB">Kodi PVR addon for Radio-Tuner-support.</summary>
+    <description lang="de_DE">PVR Radio Client unterstützt m3u Wiedergabeliste-Streaming von deutschen Radiosendern. </description>
+    <description lang="en_GB">PVR Radio Client support m3u playlist-streaming of German radiostations. </description>
+    <disclaimer lang="de_DE">Die Autoren sind in keiner Weise verantwortlich für fehlgeschlagene Wiedergaben, verschwendete Zeit oder unerwünschte Effekte jeglicher Art.</disclaimer>
+    <disclaimer lang="en_GB">The authors are in no way responsible for failed playings, wasted hours, or any other undesirable effects.</disclaimer>
+  </extension>
+</addon>

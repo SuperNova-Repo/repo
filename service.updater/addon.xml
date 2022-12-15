@@ -1,0 +1,25 @@
+<addon id="service.updater" name="[COLOR indigo]SuperNovas[/COLOR]ServiceUpdater" provider-name="Kostya Lolinger" version="2022.12.14">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.certifi" version="2022.5.18+matrix.1" />
+		<import addon="script.module.chardet" version="4.0.0+matrix.1" />
+		<import addon="script.module.idna" version="3.3.0+matrix.1" />
+		<import addon="script.module.requests" version="2.27.1+matrix.1" />
+		<import addon="script.module.urllib3" version="1.26.9+matrix.1" />
+	</requires>
+    <extension point="xbmc.service" library="resources/libs/service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>[COLOR indigo]SuperNovas[/COLOR] Service Update Tool</summary>
+		<news></news>
+		<assets>
+            <icon>resources\icon.png</icon>
+            <fanart>resources\fanart.jpg</fanart>
+        </assets>
+		<license>GPL-2.0-only</license>
+		<summary lang="de_DE"></summary>
+		<summary lang="en_GB"></summary>
+		<description lang="de_DE"></description>
+		<description lang="en_GB"></description>
+	</extension>
+</addon>
