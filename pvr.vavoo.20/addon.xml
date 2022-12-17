@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="pvr.vavoo.20"
-  version="2022.12.14"
+  version="2022.12.16"
   name="PVR VAVOO Client"
   provider-name="Kostya Lolinger">
   <requires>

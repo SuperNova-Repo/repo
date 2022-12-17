@@ -1,4 +1,9 @@
-<addon id="service.updater" name="[COLOR indigo]SuperNovas[/COLOR]ServiceUpdater" provider-name="Kostya Lolinger" version="2022.12.14">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 
+	version="2022.12.16"
+	id="service.updater" 
+	name="[COLOR indigo]SuperNovas[/COLOR]ServiceUpdater" 
+	provider-name="Kostya Lolinger">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.certifi" version="2022.5.18+matrix.1" />
